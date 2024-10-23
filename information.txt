@@ -1,0 +1,33 @@
+Voting app:- candidates can vote the candidates 
+
+Models:
+Routes:
+
+voting app functionalities:
+1. user sign in/sign up
+2. list of candidates to elect
+3. vote one of the candidate 
+4. live voting count for candidates 
+5. aadhar number + password to log in
+6. admin can maintain candidate list
+7. user can change password
+8. forgot password(will try)
+
+Routes:
+Authentication
+1. /signup: POST
+2. /login: POST
+
+Voting:
+1. /candidates - GET - to see candidate list
+2. /vote/:candidateId - POST - to vote a particular candidate
+3. /vote/counts - GET = to get live vote count
+
+User Profile:
+/profile - GET = get user profile information
+/profile/password - PUT = to change password
+
+Admin candidate management:
+/candidates - POST - to create a new candidate 
+/candidates/:candidateId - POST - update an existing candidate
+/candidates/:candidateId - DELETE - delete a candidate from the list 
