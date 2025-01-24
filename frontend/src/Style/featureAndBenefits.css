@@ -1,0 +1,60 @@
+.featureAndBenefits_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 50vh;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    margin: 1rem;
+}
+.heading{
+    font-family: 'Quattrocento';
+    font-size: 35px;
+    text-align: center;
+}
+.text{
+    font-family: 'Atkinson Hyperlegible';
+    font-size: 18px;
+    color: #8E8D93;
+    text-align: center;
+    padding: .5rem;
+}
+.card{
+    font-family: 'Atkinson Hyperlegible';
+    border-radius: 10px;
+}
+.card h4{
+    font-size: 23px;
+    text-align: center;
+}
+.card p{
+    font-size: 12px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+#privacy{
+    background-color: #E1E3E9;
+    p{
+        color: #6F6F77;
+    }
+}
+#reliability{
+    background-color: #FEDEAA;
+    p{
+        color: #907B5E;
+    }
+}
+#globalReach{
+    background-color: #E1E3E9;
+    p{
+        color: #6F6F77;
+    }
+}
+#secure{
+    background-color: #262C49;
+}
+#secure h4{
+    color: white;
+}
+#secure p{
+    color: #A5A8B4;
+}

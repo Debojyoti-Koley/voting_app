@@ -1,0 +1,51 @@
+.outerContainer{
+    display: flex;
+    position: relative;
+    height: 100vh;
+}
+
+.textBox{
+    position: absolute;
+    margin: 2.5rem;
+    width: 40%;
+    top: 20%;
+}
+.bannerImage{
+    position: absolute;
+    margin: 2.5rem;
+    top: 10%;
+    width: 40%;
+    right: 5%;
+}
+.subHeading2{
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: bold;
+}
+.mainHeading{
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: bold;
+    color: #53044F;
+}
+.subHeading1{
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: bold;
+    color: #3F3E3E;
+}
+.bannerText{
+    font-family: 'Inter';
+    font-size: 14px;
+}
+.bannerButton{
+    color: #fff;
+    background-color: #53044F;
+    border-radius: 20px;
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: bold;
+}

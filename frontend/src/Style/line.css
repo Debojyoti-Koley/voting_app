@@ -1,0 +1,11 @@
+hr {
+    background-color: #fff;
+    padding: 0;
+    margin: 1rem;
+  }
+  
+  hr.hr-1 {
+    border: 0;
+    height: 0;
+    border-top: 1px solid #716868;
+  }
